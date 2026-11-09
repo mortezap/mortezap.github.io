@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Morteza Pakdaman — applied mathematics, climate prediction, machine learning and optimization.">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Morteza Pakdaman | Academic Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#home" aria-label="Go to homepage">
+        <span class="brand-mark">MP</span>
+        <span class="brand-name">Morteza Pakdaman</span>
+      </a>
+
+      <div class="profile-block">
+        <!-- Replace the initials below with an image if desired:
+        <img class="avatar" src="assets/profile.jpg" alt="Morteza Pakdaman">
+        -->
+        <div class="avatar initials" aria-label="Profile placeholder">MP</div>
+        <h1>Morteza Pakdaman</h1>
+        <p class="role">Associate Professor</p>
+        <p class="institution">Research Institute of Meteorology</p>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home"><span>01</span> Overview</a>
+        <a class="nav-link" href="#research"><span>02</span> Research</a>
+        <a class="nav-link" href="#publications"><span>03</span> Publications</a>
+        <a class="nav-link" href="#projects"><span>04</span> Projects</a>
+        <a class="nav-link" href="#activities"><span>05</span> Academic service</a>
+        <a class="nav-link" href="#cv"><span>06</span> CV</a>
+        <a class="nav-link" href="#contact"><span>07</span> Contact</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="social-links">
+          <a href="https://github.com/mortezap" target="_blank" rel="noopener">GitHub ↗</a>
+          <!-- Replace # with your verified profile URLs -->
+          <a href="#" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a href="#" target="_blank" rel="noopener">ORCID ↗</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+          <span class="theme-icon">◐</span><span id="themeLabel">Dark appearance</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="mobile-header">
+        <a class="brand" href="#home"><span class="brand-mark">MP</span><span class="brand-name">Morteza Pakdaman</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </header>
+
+      <section class="hero section" id="home">
+        <div class="eyebrow"><span class="status-dot"></span> Academic profile & research portfolio</div>
+        <p class="hero-kicker">Applied Mathematics · Climate Science · Artificial Intelligence</p>
+        <h2>Understanding complex systems.<br><span>Building better predictions.</span></h2>
+        <p class="hero-intro">
+          I am an Associate Professor with a PhD in Applied Mathematics, specializing in Control and Optimization.
+          My research connects mathematical methods, machine learning and climate science, with a particular
+          interest in precipitation prediction, climate data analysis and decision support.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#research">Explore my research <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-metrics">
+          <div><strong>70+</strong><span>Scientific papers</span></div>
+          <div><strong>AI + Math</strong><span>Research approach</span></div>
+          <div><strong>Climate</strong><span>Application domain</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <div><p class="eyebrow">What I work on</p><h2>Research interests</h2></div>
+          <p class="section-note">Mathematical foundations with practical applications in environmental prediction.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card"><span class="card-number">01</span><div class="line-icon">∿</div><h3>Climate prediction</h3><p>Precipitation forecasting, climate variability, forecast verification and climate-model post-processing.</p></article>
+          <article class="interest-card"><span class="card-number">02</span><div class="line-icon">⌘</div><h3>Machine learning & AI</h3><p>Deep learning, convolutional neural networks, explainable AI and data-driven environmental modelling.</p></article>
+          <article class="interest-card"><span class="card-number">03</span><div class="line-icon">◇</div><h3>Control & optimization</h3><p>Mathematical optimization, decision-making, multi-criteria methods and intelligent computational strategies.</p></article>
+          <article class="interest-card"><span class="card-number">04</span><div class="line-icon">◌</div><h3>Hydroclimate applications</h3><p>Climate-risk analysis, hydro-meteorological extremes and applications supporting resilient planning.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="section-heading">
+          <div><p class="eyebrow">Selected scholarly work</p><h2>Publications</h2></div>
+          <a class="text-link" href="#" id="allPublicationsLink">All publications ↗</a>
+        </div>
+        <div class="publication-tools">
+          <input id="publicationSearch" type="search" placeholder="Search title, journal or year…" aria-label="Search publications">
+          <span class="small-note">Add your verified publications in <code>script.js</code>.</span>
+        </div>
+        <div id="publicationList" class="publication-list">
+          <div class="empty-state">Your publication list will appear here after you add entries to <code>script.js</code>.</div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <div><p class="eyebrow">Selected directions</p><h2>Research projects</h2></div>
+          <p class="section-note">A snapshot of research themes. Project descriptions can be edited as work develops.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta"><span>01 / Climate AI</span><span class="project-tag">Deep learning</span></div>
+            <h3>Multi-model precipitation post-processing</h3>
+            <p>Developing data-driven methods to improve monthly precipitation forecasts by learning from multi-model climate predictions and a reference reanalysis dataset.</p>
+            <div class="tags"><span>CNN</span><span>Ensemble learning</span><span>Forecast verification</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>02 / Explainable modelling</span><span class="project-tag">XAI</span></div>
+            <h3>Interpretable machine learning for climate applications</h3>
+            <p>Investigating explainability methods to understand predictor contributions, model behaviour and the reliability of data-driven climate predictions.</p>
+            <div class="tags"><span>SHAP</span><span>Interpretability</span><span>Climate science</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>03 / Decision science</span><span class="project-tag">Optimization</span></div>
+            <h3>Optimization and multi-criteria decision support</h3>
+            <p>Applying mathematical optimization and multi-criteria approaches to model assessment, selection and environmental decision-making.</p>
+            <div class="tags"><span>Optimization</span><span>MCDM</span><span>Decision support</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="activities">
+        <div class="section-heading">
+          <div><p class="eyebrow">Academic contributions</p><h2>Academic service</h2></div>
+        </div>
+        <div class="service-grid">
+          <article><span class="service-symbol">✳</span><div><h3>Editorial responsibilities</h3><p>Associate Editor, <em>Network: Computation in Neural Systems</em>.</p><p>Editorial Board Member, <em>Theoretical and Applied Climatology</em> and <em>Discover Applied Sciences</em>.</p></div></article>
+          <article><span class="service-symbol">◎</span><div><h3>Peer review & scholarly community</h3><p>Peer-review and editorial contributions across climate science, applied mathematics and computational intelligence.</p></div></article>
+          <article><span class="service-symbol">★</span><div><h3>Research recognition</h3><p>Selected as a top researcher at the Research Institute of Meteorology and Atmospheric Science in 2024.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section cv-section" id="cv">
+        <div class="cv-panel">
+          <div><p class="eyebrow">Background</p><h2>Academic profile</h2><p>PhD in Applied Mathematics (Control and Optimization). Research interests span climate prediction, precipitation forecasting, machine learning, optimization and decision-making.</p></div>
+          <a class="button primary" href="assets/Morteza_Pakdaman_CV.pdf" target="_blank" rel="noopener">Download full CV <span>↓</span></a>
+        </div>
+        <p class="small-note">Upload your PDF CV to the <code>assets</code> folder using the exact filename shown above, or change the link in <code>index.html</code>.</p>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-panel">
+          <p class="eyebrow">Contact</p>
+          <h2>Interested in research collaboration?</h2>
+          <p>For academic collaboration, research visits, editorial matters or scientific exchange, please get in touch.</p>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a>
+            <a class="button secondary" href="https://github.com/mortezap" target="_blank" rel="noopener">GitHub profile ↗</a>
+          </div>
+          <p class="small-note">Replace <code>YOUR_EMAIL@example.com</code> with your professional email address.</p>
+        </div>
+      </section>
+
+      <footer class="footer"><span>© <span id="year"></span> Morteza Pakdaman</span><span>Designed with HTML, CSS & JavaScript</span><a href="#home">Back to top ↑</a></footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
