@@ -863,3 +863,12 @@ body.dark .initials {
     transition: none !important;
   }
 }
+
+/* Standalone publications page */
+body:has(.publications-page) {
+  background: var(--bg);
+}
+
+.publications-page .publication-item {
+  margin-bottom: 2px;
+}
