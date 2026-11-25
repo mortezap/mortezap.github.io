@@ -1,96 +1,91 @@
-// Add verified publications here. Keep DOI/URL empty if you do not have one.
 const publications = [
-  // Example structure (replace with a real publication):
-  // {
-  //   title: "Your article title",
-  //   authors: "Author A, Author B, M. Pakdaman",
-  //   journal: "Journal Name",
-  //   year: 2025,
-  //   doi: "https://doi.org/10.xxxx/xxxxx"
-  // }
+  {"title":"A review on the applications of game theory in environmental health","authors":"Oftadeh, Batoul Zarif Qharaati; Pakdaman, Morteza.","journal":"Learning-Driven Game Theory for AI","year":2026,"doi":""},
+  {"title":"An Interval Projection-Based Approach for Solving Interval Optimization Problems","authors":"Pakdaman, Morteza; Mehraban, Abouzar; Miri, Seyed Mohsen; Gong, Shaoqi; Nokhandan, Majid Habibi.","journal":"Journal of Nonlinear Modeling and Analysis","year":2026,"doi":""},
+  {"title":"Applications of game theory in artificial intelligence: a review","authors":"Pakdaman, Morteza; Mehraban, Abouzar.","journal":"Learning-Driven Game Theory for AI","year":2026,"doi":""},
+  {"title":"Applications of game theory in climate change studies: a review","authors":"Pakdaman, Morteza; Fattahi, Ebrahim; Rahnama, Mehdi.","journal":"Learning-Driven Game Theory for AI","year":2026,"doi":""},
+  {"title":"Applications of game theory in renewable energy studies: a review","authors":"Ghaderifar, Shiva; Pakdaman, Morteza.","journal":"Learning-Driven Game Theory for AI","year":2026,"doi":""},
+  {"title":"Machine Learning for Climate Hazard Modeling: A Comprehensive Review of Methods, Applications, and Challenges","authors":"Sadeghi, Farhad; Pakdaman, Morteza.","journal":"Journal of Intelligent Monitoring and Control Systems","year":2026,"doi":""},
+  {"title":"Multi-model ensemble forecasting of precipitation: explainable machine learning and ranking of climate models based on characteristic objects method","authors":"Mehraban, Abouzar; Pakdaman, Morteza; Gong, Shaoqi; Habibi Nokhandan, Majid.","journal":"Theoretical and Applied Climatology","year":2026,"doi":""},
+  {"title":"Remote sensing analysis for wildfire monitoring and prediction in oman: insights from MODIS and fire weather index","authors":"Sadeghi, Hadis; Shokouhi, Mojtaba; Oskouei, Ebrahim Asadi; AlBadi, Humaid; Fattahi, Ebrahim; Khazanedari, Leili; Pakdaman, Morteza.","journal":"Theoretical and Applied Climatology","year":2026,"doi":""},
+
+  {"title":"A new bi-objective simultaneous model for timetabling and scheduling public bus transportation","authors":"Mousavi, Seyedeh Simin; Pooya, Alireza; Roozkhosh, Pardis; Pakdaman, Morteza.","journal":"Opsearch","year":2025,"doi":""},
+  {"title":"A new multi-objective multi-energy optimization model in the urban-industrial symbiosis network using LARG supply chain approach","authors":"Marghoob, Milad Namayan; Saghih, Amir Mohammad Fakoor; Afshari, Hamid; Pakdaman, Morteza.","journal":"Sustainable Energy, Grids and Networks","year":2025,"doi":""},
+  {"title":"A review of the applications of computational decision intelligence approaches in agrometeorology","authors":"Oskouei, Ebrahim Asadi; Pakdaman, Morteza; Kouzegaran, Saeedeh; Falamarzi, Yashar.","journal":"Uncertainty in Computational Intelligence-Based Decision Making","year":2025,"doi":""},
+  {"title":"Artificial intelligence and decision making in climate change studies: A review","authors":"Javanshiri, Zohreh; Pakdaman, Morteza.","journal":"Uncertainty in Computational Intelligence-Based Decision Making","year":2025,"doi":""},
+  {"title":"Computational decision intelligence approaches for drought prediction: A review","authors":"Pakdaman, Morteza; Kouhi, Mansoureh.","journal":"Uncertainty in Computational Intelligence-Based Decision Making","year":2025,"doi":""},
+  {"title":"Designing an Optimal Control Model of Finite Capacity, Multi-stage Continuous MRP System Considering Delay in Production Lead Time and the Possibility of Reworking and Recycling","authors":"Miri, Mahdi; Pooya, Alireza; Pakdaman, Morteza.","journal":"Journal of Systems Thinking in Practice","year":2025,"doi":""},
+  {"title":"Developing a machine learning–based model for surface wind speed retrieval based on FY4B-GIIRS satellite data","authors":"Mehraban, Abouzar; Bao, Yansong; Petropoulos, George P; Pakdaman, Morteza; Kouzegaran, Saeedeh.","journal":"International Journal of Remote Sensing","year":2025,"doi":""},
+  {"title":"Role of artificial intelligence in pandemic prediction","authors":"Sadeghi, Farhad; Pakdaman, Morteza.","journal":"The Prediction of Future Pandemics","year":2025,"doi":""},
+  {"title":"Evaluation and Ranking of Iran’s Railway Regions Using Window Data Envelopment Analysis Approach Model","authors":"Zourmand Baghdar, N., Pooya, A., Pakdaman, Morteza, & Hajimirzajan, A.","journal":"Journal of Transportation Research","year":2025,"doi":""},
+
+  {"title":"A hybrid approach for generating daily 2m temperature of 1km spatial resolution over Iran: EA Oskouei et al","authors":"Asadi Oskouei, Ebrahim; Pakdaman, Morteza; Falamarzi, Yashar; Javanshiri, Zohreh.","journal":"Theoretical and Applied Climatology","year":2024,"doi":""},
+  {"title":"Bayesian joint probability approach for post‐processing monthly precipitation prediction in Northwest Iran","authors":"Javanshiri, Z; Pakdaman, M.","journal":"Water Resources Research","year":2024,"doi":""},
+  {"title":"Forecasting the average monthly rainfall in the northwest of Iran using teleconnections and machine learning","authors":"Pakdaman, Morteza; Fattahi, Ebrahim; Javanshiri, Zohreh.","journal":"Iranian Journal of Geophysics","year":2024,"doi":""},
+  {"title":"Multi-annual prediction of precipitation and temperature over Iran and neighboring countries during 2022-2026 using DCPP models","authors":"Babaeian, Iman; Javanshiri, Zohreh; Modirian, Raheleh; Khazanedari, Leili; Falamarzi, Yashar; Malbusi, Sharareh; Karimian, Maryan; Pakdaman, Morteza; Kouhi, Mansoureh.","journal":"Journal of the Earth and Space Physics","year":2024,"doi":""},
+  {"title":"Prediction of maximum and minimum temperature of warm-water fish breeding pool using machine learning methods","authors":"Dehghan Jirdehi, Behzad; Sadidi Shal, Mohammad Taghi; Pakdaman, Morteza; Kianersi, Farahnaz.","journal":"Journal of Agricultural Meteorology","year":2024,"doi":""},
+  {"title":"Review Paper An Overview of Meteorological Services, Challenges and Solutions in the Agricultural Sector to Reduce Vulnerability in Climate Change Conditions","authors":"Kamali, Saeedeh; Oskouei, Ebrahim Asadi; Pakdaman, Morteza.","journal":"","year":2024,"doi":""},
+
+  {"title":"A highly accurate artificial neural networks scheme for solving higher multi‐order fractal‐fractional differential equations based on generalized Caputo derivative","authors":"Shloof, AM; Ahmadian, A; Senu, N; Salahshour, Soheil; Ibrahim, SNI; Pakdaman, M.","journal":"International Journal for Numerical Methods in Engineering","year":2023,"doi":""},
+  {"title":"A new iterative technique for solving fractal-fractional differential equations based on artificial neural network in the new generalized Caputo sense","authors":"Shloof, AM; Senu, Norazak; Ahmadian, Ali; Pakdaman, Morteza; Salahshour, Soheil.","journal":"Engineering with Computers","year":2023,"doi":""},
+  {"title":"Downscaling daily temperature of three reanalysis databases at a spatial resolution of one kilometer using MODIS sensor data","authors":"Falamarzi, Yashar; Oskouei, Ebrahim Asadi; Javanshiri, Zohreh; Pakdaman, Morteza.","journal":"Iranian Journal of Geophysics (IJG)","year":2023,"doi":""},
+  {"title":"Influence of large-scale climate signals on the precipitation variability over Iran","authors":"Javanshiri, Zohreh; Babaeian, Iman; Pakdaman, Morteza.","journal":"Stochastic Environmental Research and Risk Assessment","year":2023,"doi":""},
+  {"title":"Investigation of changes in the extreme of temperature and precipitation in Iran in the last 60 years","authors":"Malboosi, Sharareh; Abbasi, Fatemeh; Pakdaman, Morteza; Javanshiri, Zohreh.","journal":"Journal of Climate Research","year":2023,"doi":""},
+  {"title":"Spatially explicit modeling of disease surveillance in mixed oak-hardwood forests based on machine-learning algorithms","authors":"Ezzati, Sättar; Zenner, Eric K; Pakdaman, Morteza; Naseri, Mohammad Hassan; Nikjoui, Marzieh; Ahmadi, Shahram.","journal":"Journal of Environmental Management","year":2023,"doi":""},
+  {"title":"Statistical postprocessing of dynamically downscaled outputs of CFS. v2","authors":"Falamarzi, Yashar; Pakdaman, Morteza; Javanshiri, Zohreh.","journal":"Stochastic Environmental Research and Risk Assessment","year":2023,"doi":""},
+  {"title":"Systematic errors in weather and climate models: Challenges and opportunities in complex coupled modeling systems","authors":"Frassoni, Ariane; Reynolds, Carolyn; Wedi, Nils; Bouallègue, Zied Ben; Caltabiano, Antonio Caetano Vaz; Casati, Barbara; Christophersen, Jonathan A; Coelho, Caio AS; De Falco, Chiara; Doyle, James D.","journal":"Bulletin of the American Meteorological Society","year":2023,"doi":""},
+
+  {"title":"A New Dynamic Nursing Workforce Planning Considering Skills Required at the Different Organizational Hierarchy: An Optimal Control Method","authors":"Monazam Ebrahimpour, Shila; Rahimnia, Fariborz; Farahi, Mohammad Mahdi; Pakdaman, Morteza.","journal":"Journal of System Management","year":2022,"doi":""},
+  {"title":"Assessing the Performance of CMIP5 GCMs in Copula-Based Bivariate Frequncy Analysis of Drought Characteristics in the Southern Part of Karun Catchment","authors":"Kouhi, M; Pakdaman, M.","journal":"Journal of the Earth and Space Physics","year":2022,"doi":"https://doi.org/10.22059/jesphys.2022.326320.1007333"},
+  {"title":"European Multi Model Ensemble (EMME): A New Approach for Monthly Forecast of Precipitation: Pakdaman et al","authors":"Pakdaman, Morteza; Babaeian, Iman; Javanshiri, Zohreh; Falamarzi, Yashar.","journal":"Water Resources Management","year":2022,"doi":""},
+  {"title":"Identify the soft skills required by the hospital nursing workforce in the organizational hierarchy","authors":"Monazam Ebrahimpour, Shila; Rahimnia, Fariborz; Pooya, Alireza; Farahi, Mohamad Mahdi; Pakdaman, Morteza.","journal":"Public Management Researches","year":2022,"doi":""},
+  {"title":"Improved Monthly and Seasonal Multi-Model Ensemble Precipitation Forecasts in Southwest Asia Using Machine Learning Algorithms","authors":"Pakdaman, Morteza; Babaeian, Iman; M. Bouwer, Laurens.","journal":"Water","year":2022,"doi":""},
+  {"title":"Multi-level nursing workforce planning considering talent management in healthcare with a dynamic quantitative approach","authors":"Monazam Ebrahimpour, Shila; Rahimnia, Fariborz; Pooya, Alireza; Pakdaman, Morteza.","journal":"Kybernetes","year":2022,"doi":""},
+  {"title":"Optimal merging of multi-satellite precipitation data in urban areas","authors":"Oliazadeh, A; Bozorg-Haddad, O; Pakdaman, M; Baghbani, R; HA, Loáiciga.","journal":"Theoretical and Applied Climatology","year":2022,"doi":"https://doi.org/10.1007/s00704-021-03895-4"},
+  {"title":"Precipitation Forecasting with deep neural network (Rough Neuron Based stacked denoising sparse autoencoder )","authors":"Malboosi, Sharareh; Seyyed Mahdavi, Syyed Javad; Pakdaman, Morteza.","journal":"Journal of Climate Research","year":2022,"doi":""},
+  {"title":"Revisiting albedo from a fuzzy perspective","authors":"Pakdaman, Morteza; Habibi Nokhandan, Majid; Falamarzi, Yashar.","journal":"Kybernetes","year":2022,"doi":""},
+  {"title":"The Effect of the type of training algorithm for multi-layer perceptron neural network on the accuracy of monthly forecast of precipitation over Iran, case study: ECMWF model","authors":"Pakdaman, Morteza.","journal":"Journal of the Earth and Space Physics","year":2022,"doi":""},
+  {"title":"The impact of delay strategies on the dynamics of coronavirus pandemic model with nonlinear incidence rate","authors":"Raza, Ali; Ahmadian, Ali; Rafiq, Muhammad; Ang, Mei Choo; Salahshour, Soheil; Pakdaman, Morteza.","journal":"Fractals","year":2022,"doi":""},
+
+  {"title":"A new continuous time optimal control model for manpower planning with promotion from inside the system: A. Pooya, M. Pakdaman","authors":"Pooya, Alireza; Pakdaman, Morteza.","journal":"Operational Research","year":2021,"doi":""},
+  {"title":"An uncertainty approach for impulsive fractional differential equations: application in fluid mechanics","authors":"Salahshour, Soheil; Pakdaman, Morteza; Ahmadian, Ali.","journal":"Progress Fractional Differ Appl","year":2021,"doi":""},
+  {"title":"Design of optimization model and Decision Support System to determine the capacity of a number of types of public transportation of urban bus lines","authors":"Pooya, Alireza; Pakdaman, Morteza; Fadaei, Somayeh; Chaichi Motlagh, Morteza; Sadraei, Soroush.","journal":"Journal of Transportation Research","year":2021,"doi":""},
+  {"title":"Homogenization and trend detection of temperature in Iran for the period 1960–2018","authors":"Javanshiri, Zohreh; Pakdaman, Morteza; Falamarzi, Yashar.","journal":"Meteorology and Atmospheric Physics","year":2021,"doi":""},
+  {"title":"Soft Computing Techniques: An Overview","authors":"Pakdaman, Morteza; Ahmadian, Ali; Salahshour, Soheil.","journal":"Soft Computing Approach for Mathematical Modeling of Engineering Problems","year":2021,"doi":"https://doi.org/10.1201/9781003138341-1-1"},
+  {"title":"Weather Forecast and Climate Prediction Using Soft Computing Methods","authors":"Pakdaman, Morteza; Falamarzi, Yashar.","journal":"Soft Computing Approach for Mathematical Modeling of Engineering Problems","year":2021,"doi":"https://doi.org/10.1201/9781003138341-7-7"},
+
+  {"title":"A continuous-time optimal control model for workforce planning considering human resource strategies (HRS)","authors":"Pooya, Alireza; Pakdaman, Morteza; Ebrahimpour, Shila Monazam.","journal":"Kybernetes","year":2020,"doi":""},
+  {"title":"A kernel least mean square algorithm for fuzzy differential equations and its application in earth’s energy balance model and climate","authors":"Pakdaman, M; Falamarzi, Y; Yazdi, H Sadoghi; Ahmadian, A; Salahshour, S; Ferrara, M.","journal":"Alexandria Engineering Journal","year":2020,"doi":""},
+  {"title":"Extreme Climate Events in Iran During 2018","authors":"Khazanedari, Lily; Malbosi, Sharareh; Samadi Neghab, Sina; Pakdaman, Morteza; Javanshiri, Zohreh.","journal":"Nivar","year":2020,"doi":""},
+  {"title":"Lightning prediction using an ensemble learning approach for northeast of Iran","authors":"Pakdaman, Morteza; Naghab, Sina Samadi; Khazanedari, Leili; Malbousi, Sharare; Falamarzi, Yashar.","journal":"Journal of Atmospheric and Solar-Terrestrial Physics","year":2020,"doi":""},
+  {"title":"Post-processing of the North American multi-model ensemble for monthly forecast of precipitation based on neural network models","authors":"Pakdaman, Morteza; Falamarzi, Yashar; Babaeian, Iman; Javanshiri, Zohreh.","journal":"","year":2020,"doi":""},
+
+  {"title":"Exact and approximate solution for optimal inventory control of two-stock with reworking and forecasting of demand","authors":"Pooya, Alireza; Pakdaman, Morteza; Tadj, Lotfi.","journal":"Operational Research","year":2019,"doi":""},
+  {"title":"Optimal control model for finite capacity continuous MRP with deteriorating items","authors":"Pooya, Alireza; Pakdaman, Morteza.","journal":"Journal of Intelligent Manufacturing","year":2019,"doi":""},
+
+  {"title":"A delayed optimal control model for multi-stage production-inventory system with production lead times","authors":"Pooya, Alireza; Pakdaman, Morteza.","journal":"The International Journal of Advanced Manufacturing Technology","year":2018,"doi":""},
+
+  {"title":"A neural network approach for solving a class of fractional optimal control problems","authors":"Sabouri, Javad; Effati, Sohrab; Pakdaman, Morteza.","journal":"Neural Processing Letters","year":2017,"doi":""},
+  {"title":"Analysing the solution of production-inventory optimal control systems by neural networks","authors":"Pooya, Alireza; Pakdaman, Morteza.","journal":"RAIRO. Operations Research","year":2017,"doi":""},
+  {"title":"Bounds for convex quadratic programming problems and some important applications","authors":"Pakdaman, Morteza; Effati, Sohrab.","journal":"International Journal of Operational Research","year":2017,"doi":""},
+  {"title":"Solving differential equations of fractional order using an optimization technique based on training artificial neural network","authors":"Pakdaman, Morteza; Ahmadian, Ali; Effati, Sohrab; Salahshour, Soheil; Baleanu, Dumitru.","journal":"","year":2017,"doi":""},
+
+  {"title":"Approximating the solution of optimal control problems by fuzzy systems","authors":"Pakdaman, Morteza; Effati, Sohrab.","journal":"Neural processing letters","year":2016,"doi":""},
+  {"title":"Fuzzy projection over a crisp set and applications","authors":"Pakdaman, Morteza; Effati, Sohrab.","journal":"International Journal of Fuzzy Systems","year":2016,"doi":""},
+  {"title":"On fuzzy linear projection equation and applications","authors":"Pakdaman, Morteza; Effati, Sohrab.","journal":"Fuzzy Optimization and Decision Making","year":2016,"doi":""},
+
+  {"title":"Optimal control problem via neural networks","authors":"Effati, Sohrab; Pakdaman, Morteza.","journal":"Neural Computing and Applications","year":2013,"doi":""},
+
+  {"title":"Ordinary differential equations solution in kernel space","authors":"Sadoghi Yazdi, Hadi; Modaghegh, Hamed; Pakdaman, Morteza.","journal":"Neural Computing and Applications","year":2012,"doi":""},
+  {"title":"Solving the interval-valued linear fractional programming problem","authors":"Effati, Sohrab; Pakdaman, Morteza.","journal":"American journal of computational mathematics","year":2012,"doi":""},
+
+  {"title":"A new fuzzy neural network model for solving fuzzy linear programming problems and its applications","authors":"Effati, Sohrab; Pakdaman, Morteza; Ranjbar, Mahdi.","journal":"Neural Computing and Applications","year":2011,"doi":""},
+  {"title":"A note on “A new local and global optimization method for mixed integer quadratic programming problems” by GQ Li et al","authors":"Pakdaman, Morteza.","journal":"Applied mathematics and computation","year":2011,"doi":""},
+  {"title":"Erratum to “A new branch and bound method with pretreatment for the binary quadratic programming”[Appl. Math. Comput. 192 (2007) 252–259]","authors":"Pakdaman, Morteza.","journal":"Applied Mathematics and Computation","year":2011,"doi":""},
+  {"title":"Unsupervised kernel least mean square algorithm for solving ordinary differential equations","authors":"Yazdi, Hadi Sadoghi; Pakdaman, Morteza; Modaghegh, Hamed.","journal":"Neurocomputing","year":2011,"doi":""},
+
+  {"title":"Artificial neural network approach for solving fuzzy differential equations","authors":"Effati, Sohrab; Pakdaman, Morteza.","journal":"Information Sciences","year":2010,"doi":""},
+
+  {"title":"A differential model for solving an optimization problem with interval-valued objective function","authors":"Effati, Sohrab; Pakdaman, Morteza.","journal":"","year":2008,"doi":""},
+  {"title":"Fuzzy circuit analysis","authors":"Yazdi, Hadi Sadoghi; Pakdaman, M; Effati, Sohrab.","journal":"International journal of applied engineering research","year":2008,"doi":""},
+  {"title":"Solving fuzzy shortest path problem with a new neural network model","authors":"Effati, Sohrab; Pakdaman, Morteza.","journal":"","year":2008,"doi":""}
 ];
-
-const publicationList = document.getElementById("publicationList");
-const publicationSearch = document.getElementById("publicationSearch");
-
-function renderPublications(query = "") {
-  if (!publicationList) return;
-  const q = query.trim().toLowerCase();
-  const matches = publications.filter(item =>
-    [item.title, item.authors, item.journal, item.year].join(" ").toLowerCase().includes(q)
-  );
-
-  if (!matches.length) {
-    publicationList.innerHTML = `<div class="empty-state">${publications.length ? "No publications match your search." : 'Your publication list will appear here after you add entries to <code>script.js</code>.'}</div>`;
-    return;
-  }
-
-  publicationList.innerHTML = matches
-    .sort((a, b) => Number(b.year || 0) - Number(a.year || 0))
-    .map(item => `
-      <article class="publication-item">
-        <h3>${escapeHTML(item.title || "Untitled publication")}</h3>
-        <p>${escapeHTML(item.authors || "")}${item.authors && item.journal ? " · " : ""}${escapeHTML(item.journal || "")}${item.year ? " · " + escapeHTML(String(item.year)) : ""}</p>
-        ${item.doi ? `<a href="${safeURL(item.doi)}" target="_blank" rel="noopener">View article / DOI ↗</a>` : ""}
-      </article>
-    `).join("");
-}
-
-function escapeHTML(value) {
-  return String(value).replace(/[&<>"']/g, char => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  }[char]));
-}
-
-function safeURL(value) {
-  try {
-    const url = new URL(value, window.location.href);
-    return ["https:", "http:"].includes(url.protocol) ? escapeHTML(url.href) : "#";
-  } catch {
-    return "#";
-  }
-}
-
-publicationSearch?.addEventListener("input", event => renderPublications(event.target.value));
-renderPublications();
-
-const themeToggle = document.getElementById("themeToggle");
-const themeLabel = document.getElementById("themeLabel");
-const storedTheme = localStorage.getItem("mp-theme");
-if (storedTheme === "dark") document.body.classList.add("dark");
-function updateThemeLabel() {
-  if (themeLabel) themeLabel.textContent = document.body.classList.contains("dark") ? "Light appearance" : "Dark appearance";
-}
-updateThemeLabel();
-themeToggle?.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-  localStorage.setItem("mp-theme", document.body.classList.contains("dark") ? "dark" : "light");
-  updateThemeLabel();
-});
-
-const menuToggle = document.getElementById("menuToggle");
-const sidebar = document.getElementById("sidebar");
-menuToggle?.addEventListener("click", () => {
-  const isOpen = sidebar.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded", String(isOpen));
-  menuToggle.textContent = isOpen ? "✕" : "☰";
-});
-document.querySelectorAll(".nav-link").forEach(link => {
-  link.addEventListener("click", () => {
-    document.querySelectorAll(".nav-link").forEach(item => item.classList.remove("active"));
-    link.classList.add("active");
-    sidebar?.classList.remove("open");
-    menuToggle?.setAttribute("aria-expanded", "false");
-    if (menuToggle) menuToggle.textContent = "☰";
-  });
-});
-document.getElementById("year").textContent = new Date().getFullYear();
-
-// Replace this placeholder with your Google Scholar profile URL.
-document.getElementById("allPublicationsLink")?.addEventListener("click", event => {
-  const href = event.currentTarget.getAttribute("href");
-  if (href === "#") {
-    event.preventDefault();
-    alert("Edit the All publications link in index.html and add your Google Scholar or institutional publications URL.");
-  }
-});
